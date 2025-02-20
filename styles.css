@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  
+    font-family: "Poppins", sans-serif;  
+  }
+  
+  nav,.nav-links{
+    display: flex;
+  }
+
+  nav{
+    justify-content:space-around;
+    height: 17vh;
+    align-items: center;
+  }
+
+  .nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  a{
+    color: rgb(39, 37, 37);
+    text-decoration:none;
+    text-decoration-color: white;
+  }
+  a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: #b5b5b5;
+    text-underline-offset: 1rem;
+  }
+
+  .logo{
+    font-size: 2rem;
+  }
+  .logo:hover{
+    cursor:default;
+  }
+
+  /*HAMBERGER MENU*/
+  #hamburger-nav{
+    display: none;
+  }
+  
